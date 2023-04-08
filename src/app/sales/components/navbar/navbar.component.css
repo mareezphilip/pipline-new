@@ -1,0 +1,132 @@
+@import '~bootstrap/dist/css/bootstrap.css';
+header{
+padding: 1px 0;
+margin-bottom: 7px;
+background-color:white;
+
+}
+
+
+.menu_icon{
+    display: none;
+}
+
+.row{
+    display: flex;
+    
+}
+.logo{
+    
+   
+    margin-bottom: -5px;
+}
+.logo p{
+  margin-top:0;
+  padding-top: 3px;
+  color: rgb(84, 82, 82);
+  font-size: x-large;
+  font-weight: bold;
+
+}
+.menu{
+  margin-top: -27px;
+  margin-left: 18px;
+  margin-bottom: 10px;
+  
+}
+.pink{
+    border-left: solid 3px rgb(230, 27, 94);
+}
+
+.purple{
+    border-left: solid 3px purple;
+}
+
+.blue{
+    border-left: solid 3px blue;
+}
+
+.green{
+    border-left: solid 3px green;
+}
+
+.orange{
+    border-left: solid 3px orange;
+}
+.menu ul{
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li{
+    margin-top: -5px;
+    padding-left: 10px;
+    
+    list-style-type: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.title{
+    color: silver;
+}
+
+.detail{
+    color: rgb(84, 82, 82);
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -12px;
+    
+    text-align: left;
+}
+.menu ul li:hover{
+
+    color: darkcyan;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+
+
+@media  only screen and (max-width:980px){
+    .menu{
+        position: absolute;
+        right: 35px;
+    }
+   
+    
+   .menu ul li{
+    margin-top: -5px;
+    padding-left: 5px;
+    
+    list-style-type: none;
+    display: inline-block;
+    font-size: 10px;
+    margin-left: 10px;
+     }
+
+}
+
+@media  only screen and (max-width:650px){
+    .menu{
+        position: absolute;
+        right: 100px;
+    }
+    .menu ul li{
+        margin-top: -5px;
+        padding-left: 5px;
+        
+        list-style-type: none;
+        display: inline-block;
+        font-size: 10px;
+        margin-left: 8px;
+         }
+    
+   
+}
+
+
+
+

@@ -1,0 +1,73 @@
+.card{
+    padding-top: 0.02rem;
+    padding-left: 0.5rem;
+    padding-bottom: 0.2rem;
+    margin-bottom: 0.3rem;
+    margin-top: 0.3rem;
+    width: 95%;
+    height: 120px;
+    background-color:white;
+    border-radius: 10px;
+    justify-content: center;
+}
+h2{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+.data{
+    display: flex;
+    margin-top: -25px;
+}
+.statu{
+    background-color: darkgray;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: small; 
+    height: 10px; 
+    margin-right: 10px;
+    color: white;
+}
+.percentage{
+  font-size: small; 
+  height: 10px; 
+  background-color: rgb(55, 55, 188);
+  padding: 5px;
+  border-radius: 3px;
+  color: white;
+
+
+}
+.company{
+    
+color: silver;
+margin-right: 10px;
+}
+.phone_number{
+    color: silver;
+}
+.phone{
+    display: flex;
+    margin-top: -25px;
+
+}
+.birthdate{
+    color: silver;
+    margin-top: -18px;
+}
+
+
+
+
+@media  only screen and (max-width:1250px){
+.card{
+    height: 150px;
+}
+}
+
+@media  only screen and (max-width:700px){
+    .card{
+        height: 160px;
+    }
+    }
+    
+

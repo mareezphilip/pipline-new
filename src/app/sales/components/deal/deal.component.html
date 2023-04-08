@@ -1,0 +1,27 @@
+
+<div  class="container" 
+cdkDropList
+[cdkDropListData]="filterddeals "
+(cdkDropListDropped)="drop($event)">
+
+     
+  
+    <div  *ngFor="let deal of filterddeals | filter:text">
+        <div  cdkDrag class="card" >
+        <div><h4> {{deal.first_name}} {{deal.last_name}} </h4> 
+        </div>
+        <div class ="data">
+            <p class="statu"> {{deal.state}}</p>
+            <P class="percentage"> {{deal.probability_status}} </P>
+        </div>
+        <div class="phone">
+            <p class="company"> <i class="fa-solid fa-phone fa-xs" style="color: #d2d7df;"></i>   {{deal.company}}</p>
+            <p class ="phone_number">{{deal.phone}}</p>
+        </div>
+    
+        <p class="birthdate"><i class="fa-solid fa-calendar-days fa-xs" style="color: #bbc2ce;"></i>  {{deal.date}}</p>
+    
+    </div>
+    </div>
+</div>
+
