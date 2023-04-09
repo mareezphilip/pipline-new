@@ -10,6 +10,7 @@ and enable users to manage these Deals in multiple pipeline stages.
 
 
 Components :
+- service ->service for load data from API .
 -stage component -> Every Stage component has a deal object and also every stage can have one deal or more.
 -deal component -> Every deal component has id, first name, last name, email, phone, company, status, date, probability status(percentage), And deal state.
 - Navigation Bar
@@ -31,3 +32,6 @@ To run the application, follow these steps:
 3- Start the application: npm start
 4- Open the application in your browser: http://localhost:4200
 
+
+
+(https://user-images.githubusercontent.com/86918526/230750075-a42cf97c-3303-4bd6-b2ae-1fbd0ed57559.PNG)
